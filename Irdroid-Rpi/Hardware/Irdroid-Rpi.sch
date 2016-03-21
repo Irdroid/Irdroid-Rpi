@@ -6066,21 +6066,15 @@ http://dangerousprototypes.com</description>
 <pad name="K" x="5.41" y="1.74" drill="0.8128" shape="octagon" rot="R270"/>
 <text x="9.865" y="3.1434" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="9.8904" y="4.8066" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<wire x1="0" y1="6" x2="9.2" y2="6" width="0.127" layer="21"/>
-<wire x1="0" y1="6" x2="0" y2="4.6" width="0.127" layer="21"/>
-<wire x1="0" y1="4.6" x2="0" y2="4.3" width="0.127" layer="21"/>
-<wire x1="0" y1="4.3" x2="0" y2="1.7" width="0.127" layer="21"/>
-<wire x1="0" y1="1.7" x2="0" y2="1.3" width="0.127" layer="21"/>
-<wire x1="0" y1="1.3" x2="0" y2="0" width="0.127" layer="21"/>
-<wire x1="0" y1="0" x2="9.2" y2="0" width="0.127" layer="21"/>
-<wire x1="9.2" y1="0" x2="9.2" y2="1.7" width="0.127" layer="21"/>
-<wire x1="9.2" y1="1.7" x2="9.2" y2="4.3" width="0.127" layer="21"/>
-<wire x1="9.2" y1="4.3" x2="9.2" y2="6" width="0.127" layer="21"/>
-<wire x1="4.7" y1="4.3" x2="0" y2="4.3" width="0.127" layer="21"/>
-<wire x1="4.7" y1="1.7" x2="0" y2="1.7" width="0.127" layer="21"/>
-<wire x1="6.2" y1="4.3" x2="9.2" y2="4.3" width="0.127" layer="21"/>
-<wire x1="6.1" y1="1.7" x2="9.2" y2="1.7" width="0.127" layer="21"/>
-<wire x1="0" y1="4.6" x2="0" y2="1.3" width="0.127" layer="21" curve="176.528591"/>
+<wire x1="0" y1="4" x2="0" y2="3" width="0.127" layer="21"/>
+<wire x1="0" y1="3" x2="0" y2="2" width="0.127" layer="21"/>
+<wire x1="0" y1="3" x2="8" y2="3" width="0.127" layer="21"/>
+<wire x1="8" y1="3" x2="9" y2="3" width="0.127" layer="21"/>
+<wire x1="9" y1="2" x2="8" y2="3" width="0.127" layer="21"/>
+<wire x1="8" y1="3" x2="9" y2="4" width="0.127" layer="21"/>
+<wire x1="9" y1="4" x2="9" y2="2" width="0.127" layer="21"/>
+<wire x1="0" y1="4" x2="-1" y2="3" width="0.127" layer="21"/>
+<wire x1="-1" y1="3" x2="0" y2="2" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
