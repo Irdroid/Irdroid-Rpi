@@ -20,6 +20,25 @@ The Irdroid-Rpi infrared transceiver for Raspberry Pi is also designed with the 
 ### Todos
 
  - Add holders for the infrared leds in schematic
+ 
+### Updates
+
+Irdroid-Rpi now has a DT Overlay support via the on-board eeprom that now ships with every board. Once attached to a Raspberry Pi, the Irdroid-Rpi Hat will be recognized automatically, it will set the board inputs and outputs, and it will load the appropriate Kernel LIRC-RPI drivers. This feature improoves user experience and it provides plug-n-play support for the Product. The user will only have to install lircd (if not shipped by default with the distribution used).
+
+The Irdroid-Rpi board details such as Vendor and Product IDs are available in 
+
+/proc/device-tree/hat
+
+To query Product & Vendor use:
+
+$ more product  
+
+$ more vendor
+
+The lirc-rpi module will be loaded at boot time, then you can start using Irdroid-Rpi with lirc . The lirc device will be available at /dev/lirc0 . The driver to be used with lirc is the “Default” driver.
+
+For all the customers that have previous versions of Irdroid-Rpi, without EEPROM, we provide a free eeprom that we can ship upon request. Please send us request to info at irdroid dot com so that you can upgrade your board.
+
 
 License
 ----
