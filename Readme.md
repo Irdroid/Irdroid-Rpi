@@ -40,11 +40,6 @@ $ more product
 
 $ more vendor
 
-The lirc-rpi module will be loaded at boot time, then you can start using Irdroid-Rpi with lirc . The lirc device will be available at /dev/lirc0 . The driver to be used with lirc is the “Default” driver.
-
-For all the customers that have previous versions of Irdroid-Rpi, without EEPROM, we provide a free eeprom that we can ship upon request. Please send us request to info at irdroid dot com so that you can upgrade your board.
-
-
 License
 ----
 GPL 2.0
