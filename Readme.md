@@ -10,6 +10,11 @@ The latest gadget that we are working on is the Irdroid-Rpi Infrared Transceiver
 
 ### Version
 1.0
+
+### Installation Instructions
+
+Detailed Installation Instructions https://irdroid.eu/wp-content/uploads/2020/03/Irdroid-Rpi-Installation-Guide.txt
+
 ### Grab a sample
 
 You can grab a sample board from http://www.irdroid.eu/irdroid-rpi-infrared-transceiver-raspberry-pi/
